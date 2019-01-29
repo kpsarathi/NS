@@ -20,29 +20,40 @@
   margin-left: 0px;
 }
 
+.nav-bar {
+  height: 64px;
+
+}
+
 .nav-bar-right {
   float: right;
   display: flex;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 4px;
   padding-bottom: 4px;
-  padding-right: 4px;
+  padding-right: 0px;
+  padding-left: 0px !important;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
 }
 
-.nav-bar-right > a:hover {
+.nav-bar-right>a:hover {
   text-decoration: none;
   color: #FFF;
-  padding: 10px 14px 10px 14px;
-  border: #1269FA 1px solid;
+  padding: 8px 8px 8px 8px;
   width: auto;
   background-color: #1269FA;
   border-radius: 4px;
 
+
+
+
 }
 
-.nav-bar-right > a {
-  padding: 10px 15px 10px 15px;
+.nav-bar-right>a {
+  padding: 8px 8px 8px 8px;
   margin: 4px;
   color: #1269FA;
   width: auto;
@@ -51,17 +62,98 @@
 
 .nav-bar-left {
   float: left;
-  margin-left: 4px;
+  height: 64px;
   padding-top: 3px;
+  align-items: center;
+  display: flex;
+
 
 }
 
 .banner-background {
   background-image: url("../images/background.png");
-
   background-repeat: no-repeat;
   height: 527px;
   width: 100%;
   margin-top: 55px;
+
+}
+
+.banner-logo>svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.banner-background>h1 {
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+
+
+}
+
+.banner-background>h4 {
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14%;
+  text-decoration: underline;
+}
+
+.skills-set {
+  margin-top: 35px;
+}
+
+.stacks {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.primary-stacks {
+  display: flex;
+  width: 37%;
+  justify-content: center;
+}
+
+.primary-stacks span:nth-child(1) {
+  font-size: 18px;
+  color: #E08709;
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-stacks span:nth-child(2) {
+  font-size: 18px;
+  color: #FFF;
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+
+}
+
+.secondary-stacks {
+  display: flex;
+  width: 37%;
+  justify-content: center;
+}
+
+.secondary-stacks span:nth-child(1) {
+  font-size: 18px;
+  color: #E08709;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-stacks span:nth-child(2) {
+  font-size: 18px;
+  color: #FFF;
+  display: flex;
+  width: 53%;
+  justify-content: space-between;
 
 }
