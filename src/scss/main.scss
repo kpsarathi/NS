@@ -103,19 +103,21 @@
 
 .skills-set {
   margin-top: 35px;
+  
+  
 }
 
 .stacks {
   display: flex;
-  width: 100%;
-  justify-content: center;
+  // width: 100%;
+   justify-content: center;
   margin: 10px;
 }
 
 .primary-stacks {
-  display: flex;
+   display: flex;
   width: 37%;
-  justify-content: center;
+   justify-content: center;
 }
 
 .primary-stacks span:nth-child(1) {
@@ -130,7 +132,7 @@
   color: #FFF;
   display: flex;
   width: 65%;
-  justify-content: space-between;
+  justify-content: center;
 
 }
 
@@ -152,6 +154,6 @@
   color: #FFF;
   display: flex;
   width: 53%;
-  justify-content: space-between;
+  justify-content: center;
 
 }
