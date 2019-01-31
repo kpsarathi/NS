@@ -75,7 +75,7 @@
   background-image: url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 527px;
+  height: 280px;
   width: 100%;
 
 
@@ -94,6 +94,7 @@
   display: flex;
 
 }
+
 .banner-background>h4 {
   color: #FFF;
   justify-content: center;
@@ -103,21 +104,21 @@
 
 .skills-set {
   margin-top: 35px;
-  
-  
+
+
 }
 
 .stacks {
   display: flex;
   // width: 100%;
-   justify-content: center;
+  justify-content: center;
   margin: 10px;
 }
 
 .primary-stacks {
-   display: flex;
+  display: flex;
   width: 37%;
-   justify-content: center;
+  justify-content: center;
 }
 
 .primary-stacks span:nth-child(1) {
@@ -156,4 +157,27 @@
   width: 53%;
   justify-content: center;
 
+}
+
+.aboutus {
+  color: #1269FB;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  letter-spacing: 0.8px;
+}
+
+.aboutus-content {
+  letter-spacing: 0.3px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.70);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 15px;
+  font-size: 14px;
 }
