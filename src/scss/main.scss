@@ -184,87 +184,136 @@
 
 .development {
   display: flex;
-  width: 90%;
+  width: 80%;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   margin-top: 35px;
   padding-top: 35px;
-  margin-bottom: 35px;
-  padding-bottom: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
   color: rgba(0, 0, 0, 0.70);
   letter-spacing: 0.3px;
   line-height: 2;
-  
+  height: 480px;
+
 }
 
-.mobile-development{
-  
-    width: 40%;
-    margin: auto;  
-    align-content: center;
-    margin-right: 20px;
-    height: 280px;
+.mobile-development {
+
+  width: 30%;
+  margin: auto;
+  align-content: center;
+  margin-right: 20px;
+  height: 280px;
 }
-.mobile-development > h4{
+
+.mobile-development>h4 {
   margin-top: 30px;
   justify-content: center;
   display: flex;
   color: #1269FA;
 }
-.mobile-development > p{
+
+
+.mobile-development>p {
   margin: 30px;
+  margin-top: 50px;
   text-justify: justify;
 }
 
-.mobile-development:hover{
+.mobile-development:hover {
   height: 380px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #1269FA;
-  margin-top: 80px;
+  transition: transform .9s;
   color: #FFF;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  // padding-left: 5px;
+  // padding-right: 5px;
+  // box-sizing: border-box;
+  // width: 30%;
+
+  >h4{
+    color: #FFF;
+  }
 
 }
-.mobile-development > h4:hover{
-  // margin-top: 80px;
-  color: #FFF;
 
+
+.web-developement {
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: auto;
+  align-content: center;
+  margin-right: 20px;
+  height: 280px;
 }
-.web-developement{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 40%;
-    margin: auto;  
-    align-content: center;
-    margin-right: 20px;
-    height: 280px;
-}
-.web-developement >h4{
+
+.web-developement>h4 {
   margin-top: 30px;
   justify-content: center;
   display: flex;
   color: #1269FA;
 }
 
-.web-developement > p{
+.web-developement>p {
   margin: 30px;
   text-justify: justify;
 }
 
-.devops{
+.web-developement:hover{
+  height: 380px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 40%;
-    margin: auto;  
-    align-content: center;
-    margin-right: 20px;
-    height: 280px;
+  background-color: #1269FA;
+  transition: transform .9s;
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  width: 30%;
+  >h4{
+    color: #FFF;
+  }
 }
-.devops >h4 {
+
+.devops {
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: auto;
+  align-content: center;
+  margin-right: 20px;
+  height: 280px;
+}
+
+.devops>h4 {
   margin-top: 30px;
   justify-content: center;
   display: flex;
   color: #1269FA;
 }
-.devops > p{
+
+.devops>p {
   margin: 30px;
   text-justify: justify;
+}
+
+.devops:hover{
+  height: 380px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1269FA;
+  transition: transform .9s;
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  width: 30%;
+  >h4{
+    color: #FFF;
+  }
 }
