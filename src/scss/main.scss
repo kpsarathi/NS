@@ -228,7 +228,7 @@
   background-color: #1269FA;
   transition: transform .9s;
   color: #FFF;
-  
+
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -236,7 +236,7 @@
   // box-sizing: border-box;
   // width: 30%;
 
-  >h4{
+  >h4 {
     color: #FFF;
   }
 
@@ -264,7 +264,7 @@
   text-justify: justify;
 }
 
-.web-developement:hover{
+.web-developement:hover {
   height: 380px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #1269FA;
@@ -274,9 +274,10 @@
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
+
   // box-sizing: border-box;
   // width: 30%;
-  >h4{
+  >h4 {
     color: #FFF;
   }
 }
@@ -302,7 +303,7 @@
   text-justify: justify;
 }
 
-.devops:hover{
+.devops:hover {
   height: 380px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #1269FA;
@@ -312,9 +313,39 @@
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
+
   // box-sizing: border-box;
   // width: 30%;
-  >h4{
+  >h4 {
     color: #FFF;
   }
+}
+
+.whychooseus>h4 {
+  color: #1269FB;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  letter-spacing: 0.8px;
+}
+
+.whychooseus {
+  background-color: #424344;
+  height: 800px;
+}
+
+.whychooseus-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#codequality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+
 }
